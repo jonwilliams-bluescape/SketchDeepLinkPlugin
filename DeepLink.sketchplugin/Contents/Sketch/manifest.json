@@ -1,0 +1,30 @@
+{
+  "author" : "Jon Williams",
+  "commands" : [
+    {
+      "script" : "script.js",
+      "name" : "Get URL",
+      
+      "identifier" : "com.bluescape.sketch.runscriptidentifier",
+      
+      "handlers" : {
+        "run" : "onRun",
+        "actions": {
+          "OpenDocument": "onOpenDocument",
+          "HandleURL": "handleURL"
+        }
+      }
+    }
+  ],
+  "menu" : {
+    "title" : "Deep Link",
+    "items" : [
+      "com.bluescape.sketch.runscriptidentifier"
+    ]
+  },
+  "identifier" : "com.bluescape.sketch.openDocToPage",
+  "version" : "1.03",
+  "description" : "",
+  "authorEmail" : "jon.williams@bluescape.com",
+  "name" : "Deep Link"
+}
