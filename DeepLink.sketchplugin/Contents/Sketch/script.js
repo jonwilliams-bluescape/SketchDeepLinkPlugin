@@ -35,7 +35,7 @@ var onRun = function(context) {
   
     })
   
-    var link = String(docPath) + '&doc=' + String(pathId) + '&page=' + String(pageId) + '&layer=' + String(layerName);
+    var link = String(docPath) + '&doc=' + String(pathId) + '&page=' + String(pageId) + '&layer=' + String(encodeURIComponent(layerName));
 
     copy_text(link);
 

@@ -23,7 +23,7 @@
     ]
   },
   "identifier" : "com.bluescape.sketch.openDocToPage",
-  "version" : "1.03",
+  "version" : "1.04",
   "description" : "",
   "authorEmail" : "jon.williams@bluescape.com",
   "name" : "Deep Link"
